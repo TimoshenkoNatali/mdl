@@ -1,0 +1,403 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::before{
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body { 
+  width: 1440;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-container {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/*global*/
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-limit {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1169px;  
+  flex-direction: column;
+}
+
+/*header*/
+.header {
+  margin: 0;
+  background-color: #3F2AFF;
+  min-width: 1110px;
+}
+
+.header__row {
+  flex-direction: row;
+  padding-right: 30px;
+  padding-left: 29px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.header__col_1 {
+  justify-content: flex-start;
+}
+
+.header__col_3 {
+  justify-content: flex-end;
+}
+
+.header__col_2 {
+  display: none;
+}
+
+.header__nav {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header__list {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 57px;
+}
+
+/*hero*/
+
+.hero {
+  padding-top: 15px;
+  padding-bottom: 12px;
+  background-image: url("../img/hero__bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 593px;
+}
+
+.hero__row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero__col_img {
+  background-image: url("../img/hero__img.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 632.86px 593px;
+}
+
+.hero__title {
+  padding-top: 115px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 100%;
+  color: #FFFFFF;  
+}
+
+.hero__desc {
+  margin-bottom: 62px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.btn {
+  background: #3F2AFF;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.hero__btn{
+  margin-bottom: 118px;
+  padding: 24px 75.5px;
+}
+
+/*advantage*/
+
+.advantage {
+  padding-top: 47px;
+  padding-bottom: 80px;
+}
+
+.advantage__top {
+  background-image: url("../img/advantage__title.svg");
+  background-repeat: no-repeat;
+  background-size: 160px 142px;
+  background-position: center left;
+  margin-left: 13px;
+  padding-left: 189px;
+}
+
+.advantage__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  color: #2E2B44;
+  width: 380px;
+  margin-bottom: 16px;
+}
+
+.advantage__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+  width: 585px;
+  margin-bottom: 24px;
+}
+
+.advantage__desc_bottom {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #666666;
+  height: 80px;
+  vertical-align: baseline;
+  align-items: center;
+}
+
+.advantage__bg {
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position: center left;
+  padding-left: 110px;
+}
+
+.advantage__bg_1 {
+  background-image: url("../img/advantage1.svg");
+}
+
+.advantage__bg_2 {
+  background-image: url("../img/advantage2.svg");
+}
+
+.advantage__bg_3 {
+  background-image: url("../img/advantage3.svg");
+}
+
+/*teachers*/
+
+.teachers {
+  padding-top: 75px;
+  padding-bottom: 74px;
+  background: #212133;
+}
+
+.teachers__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.teachers__name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+  margin-left: 3px;
+}
+
+.teachers__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #85859B;
+  margin-left: 2px;
+}
+
+.teachers__col {
+  background-repeat: no-repeat;
+  background-size: 255px 180px;
+  background-position: top center;
+  padding-top: 210px;
+}
+
+.teachers__col_1 {
+  background-image: url("../img/teacher1.png");
+}
+
+.teachers__col_2 {
+  background-image: url("../img/teacher2.png");
+}
+
+.teachers__col_3 {
+  background-image: url("../img/teacher3.png");
+}
+
+.teachers__col_4 {
+  background-image: url("../img/teacher4.png");
+}
+
+/*courses*/
+
+.courses {
+  padding-top: 74px;
+  padding-bottom: 50px;
+}
+
+.couses__card {
+  padding: 30px 30px 30px 32px;
+  background-color: #EDF0F9;
+  border-radius: 20px;
+  height: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 210px;
+}
+
+.couses__card_1 {
+  background-image: url("../img/course1.svg");
+}
+
+.couses__card_2 {
+  background-image: url("../img/course2.svg");
+}
+
+.couses__card_3 {
+  background-image: url("../img/course3.svg");
+}
+
+.couses__card_4 {
+  background-image: url("../img/course4.svg");
+}
+
+.courses__col {
+  margin-bottom: 30px;
+}
+
+.courses__title {
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 100%;
+  color: #212133;
+}
+
+.courses__title-course {
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #212133;
+}
+
+.courses__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+
+.courses__btn {
+  padding: 20.5px 59px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2E2B44;
+  height: 80px;
+}
+
+.footer__list {
+  padding-top: 31px;
+  justify-content: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.footer2 {
+  padding-top: 3px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #2E2B44;
+}

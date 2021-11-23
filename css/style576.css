@@ -1,0 +1,67 @@
+@media (min-width: 571px) and (max-width: 767px) {
+
+  .header {
+    min-width: 500px;
+  }
+
+  .header__row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 53px;
+    padding-left: 53px;
+    height: 73px;
+  }
+
+   .header__logo-link {
+    width: 94px;
+    height: 21px;
+    margin-bottom: 31px;
+  }
+
+  .header__col_1 {
+    justify-content: center;
+  }
+
+  .header__col_3 {
+    justify-content: center;
+  }
+
+  .header__nav {
+    justify-content: center;
+  }
+
+  /*hero*/
+
+  .hero {
+    height: 540px;
+  }
+
+  .hero__row {
+    padding-left: 33px;
+    padding-right: 30px;
+  }
+
+  .hero__col_img {
+    display: none;
+  }
+
+  .hero__title {
+    padding-top: 61px;
+    font-size: 50px;
+    margin-bottom: 16px;
+  }
+
+  .hero__desc {
+    width: 345px;
+    margin-bottom: 64px;
+  }
+
+  /*advantage*/
+
+  /*teachers*/
+
+  /*courses*/
+
+  /*footer*/
+  
+}
