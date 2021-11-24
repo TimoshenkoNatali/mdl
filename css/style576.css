@@ -1,4 +1,4 @@
-@media (min-width: 571px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
 
   .header {
     min-width: 500px;
@@ -34,6 +34,7 @@
 
   .hero {
     height: 540px;
+    margin-bottom: 33px;
   }
 
   .hero__row {
@@ -58,9 +59,134 @@
 
   /*advantage*/
 
+  .advantage__row {
+    padding-right: 34px;
+    padding-left: 33px;
+  }
+
+  .advantage__row:last-child {
+    margin-bottom: -17px;
+  }
+
+  .advantage__top {
+    background-position: top left;
+    background-size: 150px 134px;
+    padding-left: 179px;
+  }
+
+  .advantage__title {
+    margin-top: 0;
+    width: 0;
+    min-width: 330px;
+    margin-bottom: 18px;
+  }
+
+  .advantage__desc {
+    min-width: 330px;
+    width: 0;
+    margin-bottom: 23px;
+  }
+
+  .advantage__bg {
+    background-position: left top;
+    padding-top: 90px;
+    padding-left: 0px;
+    width: 210px;
+  }
+
+  .advantage {
+    margin-bottom: -13px;
+  }
+
   /*teachers*/
 
+  .teachers {
+    padding-bottom: 52px;
+  }
+
+  .teachers__row {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .teachers__row_title {
+    padding-left: 33px;
+  }
+
+  .teachers__col {
+    background-size: 240px 180px;
+    padding-top: 213px;
+  }
+
+  .teachers__col:nth-child(2n+1) {
+    margin-bottom: 20px;
+  }
+
+  .teachers__col_1 {
+    background-image: url("../img/teacher1_576.png");
+  }
+  
+  .teachers__col_2 {
+    background-image: url("../img/teacher2_576.png");
+  }
+  
+  .teachers__col_3 {
+    background-image: url("../img/teacher3_576.png");
+  }
+  
+  .teachers__col_4 {
+    background-image: url("../img/teacher4_576.png");
+  }
+
+  .teachers__name {
+    margin-bottom: 7px;
+    margin-left: 5px;
+  }
+
+  .teachers__desc {
+    margin-left: 5px;
+  }
+
   /*courses*/
+
+  .courses__row {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+
+  .couses__card {
+    height: 413px;
+  }
+
+  .couses__card_1 {
+    background-image: url("../img/course1_576.svg");
+  }
+  
+  .couses__card_2 {
+    background-image: url("../img/course2_576.svg");
+  }
+  
+  .couses__card_3 {
+    background-image: url("../img/course3_576.svg");
+  }
+  
+  .couses__card_4 {
+    background-image: url("../img/course4_576.svg");
+  }
+
+  .courses__title-course {
+    margin-left: 1px;
+    line-height: 130%;
+  }
+
+  .courses__desc {
+    margin-left: -1px;
+    line-height: 150.5%;
+  }
+
+  .courses__btn {
+    width: 180px;
+  }
 
   /*footer*/
   

@@ -37,9 +37,123 @@
 
   /*advantage*/
 
+  .advantage {
+    margin-bottom: -18px;
+  }
+
+  .advantage__row {
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+
+  .advantage__row:last-child {
+    margin-bottom: -0px;
+  }
+
+  .advantage__top {
+    background-size: 211px 187px;
+    padding-left: 240px;
+  }
+
+  .advantage__desc {
+    width: 450px;
+    margin-bottom: 23px;
+  }
+
+  .advantage__bg {
+    background-position: left top;
+    padding-top: 90px;
+    padding-left: 0px;
+    width: 210px;
+  }
+
+  .advantage__bottom {
+    margin-bottom: -10px;
+  }
+
+  .advantage__desc_bottom {
+    align-items: flex-start;
+  }
+
   /*teachers*/
 
+  .teachers {
+    padding-bottom: 52px;
+  }
+
+  .teachers__row {
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+
+  .teachers__row_title {
+    padding-left: 40px;
+  }
+
+  .teachers__col {
+    background-size: 330px 180px;
+  }
+
+  .teachers__col:nth-child(2n+1) {
+    margin-right: -15px;
+    margin-bottom: 24px;
+  }
+
+  .teachers__col_1 {
+    background-image: url("../img/teacher1_768.png");
+  }
+  
+  .teachers__col_2 {
+    background-image: url("../img/teacher2_768.png");
+  }
+  
+  .teachers__col_3 {
+    background-image: url("../img/teacher3_768.png");
+  }
+  
+  .teachers__col_4 {
+    background-image: url("../img/teacher4_768.png");
+  }
+
+  .teachers__name {
+    margin-bottom: 7px;
+    margin-left: 10px;
+  }
+
+  .teachers__desc {
+    margin-left: 10px;
+  }
+
   /*courses*/
+
+  .courses__row {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .couses__card {
+    height: 316px;
+  }
+
+  .couses__card_1 {
+    background-image: url("../img/course1_768.svg");
+  }
+  
+  .couses__card_2 {
+    background-image: url("../img/course2_768.svg");
+  }
+  
+  .couses__card_3 {
+    background-image: url("../img/course3_768.svg");
+  }
+  
+  .couses__card_4 {
+    background-image: url("../img/course4_768.svg");
+  }
+  
+  .courses__btn {
+    width: 195px;
+  }
 
   /*footer*/
 }
