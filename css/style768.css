@@ -1,5 +1,19 @@
+@media (min-width: 1171px) and (max-width: 1400px) {
+
+  body { 
+    min-width: 768px;
+  }
+
+  .couses__card {
+    padding-top: 200px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1170px) {
-  
+  body { 
+    min-width: 768px;
+  }
+
   /*header*/
 
   .header {
@@ -19,7 +33,7 @@
   }
 
   .hero__col_img {
-    background-image: url("../img/hero__img_768.svg");
+    background-image: url("./img/hero__img_768.svg");
     background-position: center right;
     background-size: 330px 350.86px;
     margin-top: -30px;
@@ -100,19 +114,19 @@
   }
 
   .teachers__col_1 {
-    background-image: url("../img/teacher1_768.png");
+    background-image: url("./img/teacher1_768.png");
   }
   
   .teachers__col_2 {
-    background-image: url("../img/teacher2_768.png");
+    background-image: url("./img/teacher2_768.png");
   }
   
   .teachers__col_3 {
-    background-image: url("../img/teacher3_768.png");
+    background-image: url("./img/teacher3_768.png");
   }
   
   .teachers__col_4 {
-    background-image: url("../img/teacher4_768.png");
+    background-image: url("./img/teacher4_768.png");
   }
 
   .teachers__name {
@@ -133,22 +147,23 @@
 
   .couses__card {
     height: 316px;
+    padding-top: 210px;
   }
 
   .couses__card_1 {
-    background-image: url("../img/course1_768.svg");
+    background-image: url("./img/course1_768.svg");
   }
   
   .couses__card_2 {
-    background-image: url("../img/course2_768.svg");
+    background-image: url("./img/course2_768.svg");
   }
   
   .couses__card_3 {
-    background-image: url("../img/course3_768.svg");
+    background-image: url("./img/course3_768.svg");
   }
   
   .couses__card_4 {
-    background-image: url("../img/course4_768.svg");
+    background-image: url("./img/course4_768.svg");
   }
   
   .courses__btn {
@@ -156,4 +171,16 @@
   }
 
   /*footer*/
+}
+
+@media (min-width: 1000px) and (max-width: 1170px) {
+  .couses__card {
+    padding-top: 300px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 999px) {
+  .couses__card {
+    padding-top: 260px;
+  }
 }
