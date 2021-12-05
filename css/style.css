@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
-       url('./fonts/Roboto-Regular.woff') format('woff');
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('./fonts/Roboto-Bold.woff2') format('woff2'),
-       url('./fonts/Roboto-Bold.woff') format('woff');
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
@@ -136,7 +136,7 @@ p {
 .hero {
   padding-top: 15px;
   padding-bottom: 12px;
-  background-image: url("./img/hero__bg.svg");
+  background-image: url("../img/hero__bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -149,7 +149,7 @@ p {
 }
 
 .hero__col_img {
-  background-image: url("./img/hero__img.svg");
+  background-image: url("../img/hero__img.svg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 632.86px 593px;
@@ -203,7 +203,7 @@ p {
 }
 
 .advantage__top {
-  background-image: url("./img/advantage__title.svg");
+  background-image: url("../img/advantage__title.svg");
   background-repeat: no-repeat;
   background-size: 160px 142px;
   background-position: center left;
@@ -249,15 +249,15 @@ p {
 }
 
 .advantage__bg_1 {
-  background-image: url("./img/advantage1.svg");
+  background-image: url("../img/advantage1.svg");
 }
 
 .advantage__bg_2 {
-  background-image: url("./img/advantage2.svg");
+  background-image: url("../img/advantage2.svg");
 }
 
 .advantage__bg_3 {
-  background-image: url("./img/advantage3.svg");
+  background-image: url("../img/advantage3.svg");
 }
 
 /*teachers*/
@@ -306,19 +306,19 @@ p {
 }
 
 .teachers__col_1 {
-  background-image: url("./img/teacher1.png");
+  background-image: url("../img/teacher1.png");
 }
 
 .teachers__col_2 {
-  background-image: url("./img/teacher2.png");
+  background-image: url("../img/teacher2.png");
 }
 
 .teachers__col_3 {
-  background-image: url("./img/teacher3.png");
+  background-image: url("../img/teacher3.png");
 }
 
 .teachers__col_4 {
-  background-image: url("./img/teacher4.png");
+  background-image: url("../img/teacher4.png");
 }
 
 /*courses*/
@@ -347,19 +347,19 @@ p {
 }
 
 .couses__card_1 {
-  background-image: url("./img/course1.svg");
+  background-image: url("../img/course1.svg");
 }
 
 .couses__card_2 {
-  background-image: url("./img/course2.svg");
+  background-image: url("../img/course2.svg");
 }
 
 .couses__card_3 {
-  background-image: url("./img/course3.svg");
+  background-image: url("../img/course3.svg");
 }
 
 .couses__card_4 {
-  background-image: url("./img/course4.svg");
+  background-image: url("../img/course4.svg");
 }
 
 .courses__col {

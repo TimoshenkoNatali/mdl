@@ -33,7 +33,7 @@
   }
 
   .hero__col_img {
-    background-image: url("./img/hero__img_768.svg");
+    background-image: url("../img/hero__img_768.svg");
     background-position: center right;
     background-size: 330px 350.86px;
     margin-top: -30px;
@@ -114,19 +114,19 @@
   }
 
   .teachers__col_1 {
-    background-image: url("./img/teacher1_768.png");
+    background-image: url("../img/teacher1_768.png");
   }
   
   .teachers__col_2 {
-    background-image: url("./img/teacher2_768.png");
+    background-image: url("../img/teacher2_768.png");
   }
   
   .teachers__col_3 {
-    background-image: url("./img/teacher3_768.png");
+    background-image: url("../img/teacher3_768.png");
   }
   
   .teachers__col_4 {
-    background-image: url("./img/teacher4_768.png");
+    background-image: url("../img/teacher4_768.png");
   }
 
   .teachers__name {
@@ -151,19 +151,19 @@
   }
 
   .couses__card_1 {
-    background-image: url("./img/course1_768.svg");
+    background-image: url("../img/course1_768.svg");
   }
   
   .couses__card_2 {
-    background-image: url("./img/course2_768.svg");
+    background-image: url("../img/course2_768.svg");
   }
   
   .couses__card_3 {
-    background-image: url("./img/course3_768.svg");
+    background-image: url("../img/course3_768.svg");
   }
   
   .couses__card_4 {
-    background-image: url("./img/course4_768.svg");
+    background-image: url("../img/course4_768.svg");
   }
   
   .courses__btn {

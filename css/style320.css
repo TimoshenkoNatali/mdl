@@ -147,19 +147,19 @@
   }
 
   .teachers__col_1 {
-    background-image: url("./img/teacher1_320.png");
+    background-image: url("../img/teacher1_320.png");
   }
   
   .teachers__col_2 {
-    background-image: url("./img/teacher2_320.png");
+    background-image: url("../img/teacher2_320.png");
   }
   
   .teachers__col_3 {
-    background-image: url("./img/teacher3_320.png");
+    background-image: url("../img/teacher3_320.png");
   }
   
   .teachers__col_4 {
-    background-image: url("./img/teacher4_320.png");
+    background-image: url("../img/teacher4_320.png");
   }
 
   .teachers__name {
@@ -194,19 +194,19 @@
   }
 
   .couses__card_1 {
-    background-image: url("./img/course1_320.svg");
+    background-image: url("../img/course1_320.svg");
   }
   
   .couses__card_2 {
-    background-image: url("./img/course2_320.svg");
+    background-image: url("../img/course2_320.svg");
   }
   
   .couses__card_3 {
-    background-image: url("./img/course3_320.svg");
+    background-image: url("../img/course3_320.svg");
   }
   
   .couses__card_4 {
-    background-image: url("./img/course4_320.svg");
+    background-image: url("../img/course4_320.svg");
   }
 
   .courses__title-course {
